@@ -1,0 +1,7 @@
+C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\obj\Debug\CSharpPractModule8.csprojAssemblyReference.cache
+C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\obj\Debug\CSharpPractModule8.csproj.CoreCompileInputs.cache
+C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\bin\Debug\CSharpPractModule8.exe.config
+C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\bin\Debug\CSharpPractModule8.exe
+C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\bin\Debug\CSharpPractModule8.pdb
+C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\obj\Debug\CSharpPractModule8.exe
+C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\obj\Debug\CSharpPractModule8.pdb
