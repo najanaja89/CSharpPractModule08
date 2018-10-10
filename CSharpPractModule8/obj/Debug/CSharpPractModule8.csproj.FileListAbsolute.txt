@@ -5,3 +5,10 @@ C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\bin\Debug\CSh
 C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\bin\Debug\CSharpPractModule8.pdb
 C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\obj\Debug\CSharpPractModule8.exe
 C:\Users\тер\source\repos\CSharpPractModule8\CSharpPractModule8\obj\Debug\CSharpPractModule8.pdb
+D:\Source\CSharpPractModule08\CSharpPractModule8\bin\Debug\CSharpPractModule8.exe.config
+D:\Source\CSharpPractModule08\CSharpPractModule8\bin\Debug\CSharpPractModule8.exe
+D:\Source\CSharpPractModule08\CSharpPractModule8\bin\Debug\CSharpPractModule8.pdb
+D:\Source\CSharpPractModule08\CSharpPractModule8\obj\Debug\CSharpPractModule8.csprojAssemblyReference.cache
+D:\Source\CSharpPractModule08\CSharpPractModule8\obj\Debug\CSharpPractModule8.csproj.CoreCompileInputs.cache
+D:\Source\CSharpPractModule08\CSharpPractModule8\obj\Debug\CSharpPractModule8.exe
+D:\Source\CSharpPractModule08\CSharpPractModule8\obj\Debug\CSharpPractModule8.pdb

@@ -10,21 +10,29 @@ namespace CSharpPractModule8
     {
         public int LowIndexArray { get; set; }
         public int HighIndexArray { get; set; }
-        private int size;
-        public int Size
+        public int Size { get; }
+        string[] customArray;
+
+        public RangeOfArray(int lowIndex, int highIndex)
         {
-            get
+            if (lowIndex < highIndex)
             {
-                size = HighIndexArray - LowIndexArray;
-                return size;
+                HighIndexArray = highIndex;
+                LowIndexArray = lowIndex;
+                int size = (HighIndexArray - LowIndexArray) + 1;
+                Size = size;
+                customArray = new string[size];
+
+                int tmp = LowIndexArray;
+                for (int i = 0; i < size; i++)
+                {
+                    customArray[i] = ("\tstring " + tmp);
+                    tmp++;
+                }
             }
-   
+            else throw new Exception("RangeOfArray object error: low index must be smaller than high index");
         }
 
-
-        
-
-        private string[] customArray;
         public string this[int index]
         {   
             get { return customArray[index]; }

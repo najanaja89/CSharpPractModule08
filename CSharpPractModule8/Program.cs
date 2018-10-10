@@ -10,6 +10,8 @@ namespace CSharpPractModule8
     {
         static void Main(string[] args)
         {
+            try
+            {
             int startIndexInt;
             int endIndexInt;
 
@@ -24,13 +26,23 @@ namespace CSharpPractModule8
 
             if (int.TryParse(endIndex, out endIndexInt)) { }
             else { Console.WriteLine("Value must be a number!"); }
-            if (endIndexInt <= startIndexInt) { Console.WriteLine("end index must be bigger than start index!"); }
-            
-            RangeOfArray array = new RangeOfArray
+            if (endIndexInt <= startIndexInt)
+
+            { Console.WriteLine("end index must be bigger than start index!"); }
+
+            RangeOfArray array = new RangeOfArray(startIndexInt, endIndexInt);
+
+                Console.WriteLine();
+                for (int i = 0; i < array.Size; i++)
+                {
+                    Console.WriteLine(array[i]);
+                }
+            }
+            catch (Exception ex)
             {
-                HighIndexArray = startIndexInt,
-                LowIndexArray = endIndexInt
-            };
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+
             Console.ReadLine();
         }
     }
